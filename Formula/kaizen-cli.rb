@@ -4,28 +4,28 @@
 class KaizenCli < Formula
   desc "Distributable agent observability: sessions, retros, and repo-level improvement for coding agents"
   homepage "https://github.com/marquesds/kaizen"
-  version "0.1.43"
+  version "0.1.44"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/marquesds/kaizen/releases/download/v0.1.43/kaizen-v0.1.43-aarch64-apple-darwin.tar.gz"
-      sha256 "0d69b96b8a61174faba0d783b3006b1e977f283f79ab48bf419882daf9d6ea3e"
+      url "https://github.com/marquesds/kaizen/releases/download/v0.1.44/kaizen-v0.1.44-aarch64-apple-darwin.tar.gz"
+      sha256 "a9ed427b82734566cb4759ff4937ec4dc6d2261806e085f63bcf55b820051e75"
     end
     on_intel do
-      url "https://github.com/marquesds/kaizen/releases/download/v0.1.43/kaizen-v0.1.43-x86_64-apple-darwin.tar.gz"
-      sha256 "70f73e63ba4cfdb67dceedf9ac6d372092e944a4ff203b4ccded6ae15c898cc4"
+      url "https://github.com/marquesds/kaizen/releases/download/v0.1.44/kaizen-v0.1.44-x86_64-apple-darwin.tar.gz"
+      sha256 "f4689312ecb0c177dbbe640ba7afc5b9554b0a1e7b23ee50a0032447c5360f7a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/marquesds/kaizen/releases/download/v0.1.43/kaizen-v0.1.43-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e96aca528ca388c60afccdae4d226ebcbda9730a39f2933af66f81f1606f721a"
+      url "https://github.com/marquesds/kaizen/releases/download/v0.1.44/kaizen-v0.1.44-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cbd8582242c585c6bed55ff13abc828493e20a58faab9e5a1186123b931364cb"
     end
     on_intel do
-      url "https://github.com/marquesds/kaizen/releases/download/v0.1.43/kaizen-v0.1.43-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0f3ee7dcdaf502f3c4e676a3fd56ba6504e48dcfdac47e13365fd83dd6476b6f"
+      url "https://github.com/marquesds/kaizen/releases/download/v0.1.44/kaizen-v0.1.44-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "72ac16b7340fcfea6d569f06699679b87d46f09143003d2c35616bbee728a094"
     end
   end
 
